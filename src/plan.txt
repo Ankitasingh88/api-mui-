@@ -1,0 +1,30 @@
+Book Finder App - Project Plan
+
+Overview:
+A simple, responsive React + TypeScript app that allows users to search for books using the Google Books API. The app is styled using MUI and follows modular design principles.
+
+Features:
+- TypeScript for static typing and safer code
+- Functional components with useState hooks
+- API integration with Google Books API on search button click
+- Styled using MUI with responsive layout and sx props
+- Book results displayed in cards with preview links
+- Back button resets the app to its initial state
+
+Component Structure:
+- /components
+  - SearchBar.tsx : Handles user input and search/back actions
+  - BookList.tsx  : Displays list of BookCard components
+  - BookCard.tsx  : Individual book display with image, title, authors
+- /types
+  - index.ts      : Defines Book type structure
+- /app
+  - page.tsx      : Main logic with state and layout
+
+
+Tech Stack:
+- React (with Next.js App Router)
+- TypeScript
+- MUI (Material UI)
+- Google Books API
+
